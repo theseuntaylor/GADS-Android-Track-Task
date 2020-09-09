@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GADS Leaderboard</string>
+
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="learning_leaders">Hello fragment for learning leaders</string>
+    <string name="skill_iq_leaders">Skill IQ leaders</string>
+    <string name="failed_message">We could not get the results, please try again later. :)</string>
+    <string name="submit_text">Submit</string>
+</resources>
