@@ -5,7 +5,7 @@
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".activities.MainActivity">
+        tools:context=".activities.LandingPageActivity">
 
     <com.google.android.material.appbar.AppBarLayout
             android:layout_height="wrap_content"
@@ -28,7 +28,7 @@
                     android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title"/>
 
             <Button
-                    android:background="#fff"
+                    android:background="@drawable/button_resource"
                     android:textColor="#000"
                     android:id="@+id/goto_submit_project"
                     android:layout_marginLeft="10dp"

@@ -6,27 +6,30 @@
 
     <application
             android:allowBackup="true"
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/appbar_image"
             android:label="@string/app_name"
-            android:roundIcon="@mipmap/ic_launcher_round"
+            android:roundIcon="@drawable/app_icon_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+
+        <activity android:name=".activities.Splash"
+                  android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity
-                android:name=".activities.MainActivity"
+                android:name=".activities.LandingPageActivity"
                 android:label="@string/app_name"
                 android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
         </activity>
 
         <activity
                 android:theme="@style/AppTheme.NoActionBar"
                 android:name=".activities.SubmitProjectActivity"
                 android:label="Submit Project">
-
         </activity>
     </application>
 

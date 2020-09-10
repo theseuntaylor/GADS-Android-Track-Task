@@ -130,7 +130,7 @@
 
     </com.google.android.material.textfield.TextInputLayout>
     <Button
-            android:background="#E9913A"
+            android:background="@drawable/button_resource"
             android:text="Submit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" android:id="@+id/submit_project_button"

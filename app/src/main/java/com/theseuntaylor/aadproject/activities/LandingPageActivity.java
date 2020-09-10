@@ -12,7 +12,7 @@ import com.theseuntaylor.aadproject.R;
 import com.theseuntaylor.aadproject.fragments.SkillIqLeadersFragment;
 import com.theseuntaylor.aadproject.ui.main.SectionsPagerAdapter;
 
-public class MainActivity extends AppCompatActivity {
+public class LandingPageActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
